@@ -4,7 +4,7 @@
 }
 .header{
     background: linear-gradient(0deg, #000000  190px, rgb(0, 0, 0) 130px);
-    min-height: 100vh;
+    min-height: 95vh;
     display: grid;
     grid-template-rows: 60px 1fr;
     align-items: center;
@@ -54,6 +54,7 @@ i{
 }
 .portafolio-section{
     display: grid;
+    
     grid-row-gap: 20px;
 }
 .portafolio h2{
@@ -69,6 +70,9 @@ i{
     cursor: pointer;
     
 } 
+.portafolio p{
+    font-size: 20px;
+}
 
 
 
@@ -88,4 +92,8 @@ i{
     display: none;
 } */
 
+
+@media (max-width: 600px){
+    
+}
 
