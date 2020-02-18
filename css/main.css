@@ -3,12 +3,77 @@
     padding: 0px;
 }
 .header{
-    background: linear-gradient(0deg, #000d99  190px, rgb(255, 255, 255) 130px);
-    height: 310px;
-    width: 100%;
-    max-width: 100%;
+    background: linear-gradient(0deg, #000000  190px, rgb(0, 0, 0) 130px);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    align-items: center;
+    
 }
-header>div{
+.row{
+    margin:0px;
+}
+.header p{
+    font-size: 34px;
+    margin-top: auto;
+    padding: 15px;
+    box-sizing: border-box;
+   
+}
+nav{
+    background-color: black;
+  
+   
+}
+#nav-mobile{
+    background-color:black;
+    
+    
+    
+}
+#nav-mobile li{
+    border-top: none;
+    border-left: none;
+}
+#nav-mobile a{
+    font-size: 16px;
+}
+#nav-mobile a:hover{
+    color:#cddc39;
+}
+
+i{
+    height: 60px;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+}
+.portafolio{
+   
+    min-height: 100vh;
+}
+.portafolio-section{
+    display: grid;
+    grid-row-gap: 20px;
+}
+.portafolio h2{
+    margin: 0px;
+}
+.card{
+    font-weight: bold;
+    font-size: 20px;
+
+    
+ }
+.card-image{
+    cursor: pointer;
+    
+} 
+
+
+
+
+/* .imgCirculo{
     width: 230px;
     height: 230px;
     background-image: url('../assets/img/perfil_foto.jpg');
@@ -20,15 +85,7 @@ header>div{
     margin: auto;
     position: relative;
     top: 20px;
-}
-.header-nombre{
-    top: 10px;
-    position: relative;
-}
-.header-p{
-    font-size: 18px;
-}
-.menu{
-      
-    background-color: #2b3ae2;
-}
+    display: none;
+} */
+
+
